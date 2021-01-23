@@ -1,3 +1,5 @@
+# displays date and time on a voice channel
+
 import discord
 from discord.ext import commands
 import asyncio
