@@ -36,7 +36,6 @@ async def time():
         day = now_time.strftime('%d')
         hour = now_time.strftime('%H')
         minute = round(int(now_time.strftime('%M')), -1)
-        print(now_time.strftime('%m %d - %H %M'))
 
         vc = client.get_channel(voice channel id)
 
