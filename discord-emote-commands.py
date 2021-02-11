@@ -1,3 +1,13 @@
+def list_slice(a, limit):
+    y = []
+
+    while len(a) > 0:
+        y.append(a[:limit])
+        a = a[limit:]
+
+    return y
+
+
 @client.command()
 async def emotes(ctx):
     guild = ctx.guild
